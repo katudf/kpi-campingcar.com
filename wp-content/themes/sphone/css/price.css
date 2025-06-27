@@ -1,0 +1,44 @@
+main section article{
+	margin:0 auto;
+	padding:0 5%;
+}
+main section article table{
+	width:100%;
+	font-family: "fot-chiaro-std", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	border-top:2px solid #ccc;
+}
+main section article th,
+main section article td{
+	display:block;
+	padding:10px;
+	font-size:20px;
+	text-align:center;
+}
+main section article th{
+	font-size:24px;
+}
+main section article td{
+	padding:0 10px 10px 10px;
+	border-bottom:2px solid #ccc;
+}
+main section article td small{
+	font-size:16px;
+}
+.cancel{
+	padding:20px 20px;
+	border:3px solid #25ae10;
+	border-radius:20px;
+	margin-top:50px;
+}
+.cancel strong{
+	font-size:24px;
+}
+.cancel th,
+.cancel td{
+	font-weight:500;
+	font-size:18px !important;
+	display:table-cell;
+	border-bottom:2px solid #ccc;
+}
