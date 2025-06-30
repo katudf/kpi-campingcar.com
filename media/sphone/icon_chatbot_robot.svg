@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="85" viewBox="0 0 60 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe11b;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+      .eye-style {
+        fill: #000;
+      }
+      .custom-text {
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 22px;
+        text-anchor: middle;
+        dominant-baseline: central;
+        fill: #000;
+        stroke: #000;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <g id="ai-robot">
+    <line x1="45" y1="12" x2="52" y2="5" stroke="#000" stroke-width="2"/>
+    <circle cx="52" cy="5" r="4" class="cls-1"/>
+    <rect x="10" y="10" width="40" height="35" rx="5" class="cls-1"/>
+    <circle cx="23" cy="25" r="5" class="eye-style"/>
+    <circle cx="37" cy="25" r="5" class="eye-style"/>
+    <line x1="20" y1="35" x2="40" y2="35" stroke="#000" stroke-width="8"/>
+    <rect x="5" y="45" width="50" height="30" rx="5" class="cls-1"/>
+    <text x="30" y="60" class="custom-text" textLength="45" lengthAdjust="spacingAndGlyphs">AI相談</text>
+    <path d="M10,75 a20,20 0 0,0 40,0 Z" class="cls-1"/>
+  </g>
+</svg>
